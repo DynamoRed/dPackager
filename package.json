@@ -1,0 +1,34 @@
+{
+    "private": true,
+    "type": "commonjs",
+    "name": "@dynamored/dpackager",
+    "description": "dPackager is a DynamoRed app",
+    "version": "beta-1.0.0",
+    "homepage": "https://vcs.dynamored.com/dPackager/README",
+    "license": "GPL-3.0",
+    "main": "./src/app",
+    "packageManager": "npm@8.0.0",
+    "bugs": {
+        "url": "https://vcs.dynamored.com/dPackager/issues",
+        "email": "team@dynamored.com"
+    },
+    "author": {
+        "name": "DynamoRed",
+        "url": "https://dynamored.com",
+        "email": "raphael@dynamored.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://vcs.dynamored.com/dPackager.git"
+    },
+    "engines": {
+        "node": ">=16.10",
+        "npm": ">=8.0.0"
+    },
+    "directories": {
+        "lib": "./libs",
+        "bin": "./bin",
+        "doc": "./docs",
+        "test": "./src/specs"
+    }
+}
