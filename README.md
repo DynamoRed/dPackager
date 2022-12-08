@@ -7,4 +7,4 @@
 # Usage
 
 - Add this powershell module to your $profile
-- use dPackager -appName [name]
+- use `dPackager -appName [name]` in a powershell terminal
